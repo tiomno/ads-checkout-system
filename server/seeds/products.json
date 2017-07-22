@@ -1,0 +1,20 @@
+[
+  {
+    "_id": "90d71f2d33335326d7098700",
+    "name": "Classic Ad",
+    "description": "Basic level of advertisement",
+    "price": 269.99
+  },
+  {
+    "_id": "90d71f2d33335326d7098701",
+    "name": "Standout Ad",
+    "description": "Allows advertisers to use a company logo and use a longer presentation text",
+    "price": 322.99
+  },
+  {
+    "_id": "90d71f2d33335326d7098702",
+    "name": "Premium Ad",
+    "description": "Same benefits as Standout Ad, plus placing the advertisement at the top of the results, allowing higher visibility",
+    "price": 394.99
+  }
+]

@@ -1,0 +1,5 @@
+{
+	"undefined": "localhost/ads_checkout_db",
+	"dev": "localhost/ads_checkout_db",
+	"prod": "localhost/ads_checkout_db"
+}

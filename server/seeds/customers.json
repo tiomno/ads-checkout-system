@@ -1,0 +1,65 @@
+[
+  {
+    "_id": "54ee1f2d33335326d7098699",
+    "name": "Default",
+    "discounts": []
+  },
+  {
+    "_id": "54ee1f2d33335326d7098700",
+    "name": "Unilever",
+    "discounts": [
+      {
+        "type": "deal",
+        "deal": [3, 2],
+        "product": "90d71f2d33335326d7098700"
+      }
+    ]
+  },
+  {
+    "_id": "54ee1f2d33335326d7098701",
+    "name": "Apple",
+    "discounts": [
+      {
+        "type": "discount",
+        "from": 1,
+        "product": "90d71f2d33335326d7098701",
+        "discount": 299.99
+      }
+    ]
+  },
+  {
+    "_id": "54ee1f2d33335326d7098702",
+    "name": "Nike",
+    "discounts": [
+      {
+        "type": "discount",
+        "from": 4,
+        "product": "90d71f2d33335326d7098702",
+        "discount": 379.99
+      }
+    ]
+  },
+  {
+    "_id": "54ee1f2d33335326d7098703",
+    "name": "Ford",
+    "discounts": [
+      {
+        "type": "deal",
+        "deal": [5, 4],
+        "product": "90d71f2d33335326d7098700"
+      },
+      {
+        "type": "discount",
+        "from": 0,
+        "product": "90d71f2d33335326d7098701",
+        "discount": 309.99
+      },
+      {
+        "type": "discount",
+        "from": 3,
+        "product": "90d71f2d33335326d7098702",
+        "discount": 389.99
+      }
+    ]
+  }
+]
