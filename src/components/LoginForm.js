@@ -8,6 +8,7 @@ const loginFormFactory = ( { React, PropTypes } ) => {
             props,
 
             handlerChange( selectedCustomer ) {
+                /* //TODO &&& make this component a stateful one an manipulate iinternally the state of the <Select component> */
                 this.props.setCustomer( selectedCustomer.value )
             },
 

@@ -10,13 +10,6 @@ const defaultState = {
         name: '',
         isLoggedIn: false,
     },
-    editingRule: {
-        productId: '',
-        discountType: '',
-        deal: [ 1, 1 ],
-        from: 1,
-        discount: 0,
-    }
 }
 
 const store = createStore( rootReducer, defaultState )

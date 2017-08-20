@@ -12,7 +12,6 @@ const appContainerFactory = ( { React, PropTypes } ) => {
             cart: state.cart,
             customer: state.customer,
             customers: state.customers,
-            editingRule: state.editingRule,
         }
     }
 

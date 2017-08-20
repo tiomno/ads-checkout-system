@@ -35,12 +35,6 @@ describe( 'Rules component should', () => {
                 discount: 0,
             },
             updateRule: () => true,
-            setProductRule: () => true,
-            setDiscountTypeRule: () => true,
-            setGetRule: () => true,
-            setForRule: () => true,
-            setDiscountRule: () => true,
-            setFromRule: () => true,
         }
 
         ReactDOM.render( <Rules { ...props } />, document.createElement( 'div' ) )
