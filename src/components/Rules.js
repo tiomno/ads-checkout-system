@@ -33,8 +33,6 @@ const rulesFactory = ( { React, PropTypes } ) => {
         constructor( props ) {
             super( props )
 
-            console.log( props ) /* //TODO &&& rm  */
-
             this.state = {
                 productId: '',
                 discountType: '',

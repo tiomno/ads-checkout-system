@@ -1,29 +1,15 @@
 import axios from 'axios'
 
 /**
- * Sets the active customer in the store.
- *
- * @param {String} customerName The customer name.
- *
- * @returns {{type: string, customerName: string}}
- */
-export function setCustomer( customerName )
-{
-    return {
-        type: 'SET_CUSTOMER',
-        customerName,
-    }
-}
-
-/**
  * Logs in the customer.
  *
  * @returns {{type: string}}
  */
-export function loginCustomer()
+export function loginCustomer( customerName )
 {
     return {
-        type: 'LOGIN_CUSTOMER'
+        type: 'LOGIN_CUSTOMER',
+        customerName,
     }
 }
 

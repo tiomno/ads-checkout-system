@@ -1,15 +1,9 @@
 const customer = ( state = null, action ) => {
     switch ( action.type )
     {
-        case 'SET_CUSTOMER':
-            return {
-                name: action.customerName,
-                isLoggedIn: false,
-            }
-
         case 'LOGIN_CUSTOMER':
             return {
-                ...state,
+                name: action.customerName,
                 isLoggedIn: true,
             }
 
