@@ -7,7 +7,7 @@ const appContainerFactory = ( { React, PropTypes } ) => {
 
     const App = appFactory( { React, PropTypes } )
 
-    const mapStateToProps = ( state ) => {
+    const mapStateToProps = state => {
         return {
             cart: state.cart,
             customer: state.customer,
@@ -15,12 +15,12 @@ const appContainerFactory = ( { React, PropTypes } ) => {
         }
     }
 
-    const mapDispachToProps = ( dispatch ) => {
+    const mapDispatchToProps = dispatch => {
         /**
          * Initialising the state of the store.
          * This is not the right way to do this in production!!!
          * A better way is to use redux-thunk middleware for Redux,
-         * which allows to controls when to dispatch an action to request the external data
+         * which allows to control when to dispatch an action to request the external data
          */
         actionCreators.getCustomers( dispatch )
         actionCreators.getProducts( dispatch )
@@ -28,7 +28,7 @@ const appContainerFactory = ( { React, PropTypes } ) => {
         return bindActionCreators( actionCreators, dispatch )
     }
 
-    return connect( mapStateToProps, mapDispachToProps )( App )
+    return connect( mapStateToProps, mapDispatchToProps )( App )
 }
 
 export default appContainerFactory
